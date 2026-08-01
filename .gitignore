@@ -1,0 +1,30 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+quickpick-backend/quickpick/src/main/resources/application.yaml
+quickpick-backend/quickpick/src/main/resources/application-*.yaml
+!quickpick-backend/quickpick/src/main/resources/application-example.yaml
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local data and generated files
+logs/
+*.log
+dist/
+target/
+node_modules/
+coverage/
+
+# IDE and OS files
+.idea/
+.vscode/
+.trae/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Private database scripts and seed data
+SQL/*.sql

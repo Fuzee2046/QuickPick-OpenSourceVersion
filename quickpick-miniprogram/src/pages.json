@@ -1,0 +1,142 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "食刻快取-点餐",
+        "enablePullDownRefresh": true,
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/menu/menu",
+      "style": {
+        "navigationBarTitleText": "选择菜品",
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/weight-menu/weight-menu",
+      "style": {
+        "navigationBarTitleText": "自选称重",
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/weight-confirm/weight-confirm",
+      "style": {
+        "navigationBarTitleText": "确认称重订单"
+      }
+    },
+    {
+      "path": "pages/confirm/confirm",
+      "style": {
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    {
+      "path": "pages/success/success",
+      "style": {
+        "navigationBarTitleText": "下单成功"
+      }
+    },
+    {
+      "path": "pages/order-list/order-list",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true,
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/free-meal/free-meal",
+      "style": {
+        "navigationBarTitleText": "免单活动",
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/order-detail/order-detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "enableShareAppMessage": true,
+        "enableShareTimeline": true
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/agreement/privacy-policy",
+      "style": {
+        "navigationBarTitleText": "隐私政策"
+      }
+    },
+    {
+      "path": "pages/agreement/service-agreement",
+      "style": {
+        "navigationBarTitleText": "用户服务协议"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "食刻快取",
+    "navigationBarBackgroundColor": "#2a8bff",
+    "backgroundColor": "#2a8bff",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#2a8ffb",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "点单",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/blank.png",
+        "selectedIconPath": "static/images/blank.png"
+      },
+      {
+        "text": "免单",
+        "pagePath": "pages/free-meal/free-meal",
+        "iconPath": "static/images/blank.png",
+        "selectedIconPath": "static/images/blank.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order-list/order-list",
+        "iconPath": "static/images/blank.png",
+        "selectedIconPath": "static/images/blank.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/blank.png",
+        "selectedIconPath": "static/images/blank.png"
+      }
+    ]
+  }
+}

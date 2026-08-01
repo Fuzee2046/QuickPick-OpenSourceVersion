@@ -1,0 +1,42 @@
+
+/* 颜色变量 */
+
+/* 品牌主色 */
+$uni-color-primary: #2a8bff; // 科技蓝
+
+/* 品牌辅助色 */
+$uni-color-white: #ffffff;
+$uni-bg-color-grey: #f8f9fa; // 浅灰背景
+
+/* 点缀色与功能色 */
+$uni-color-action: #ff7b2c; // 活力橙 (行动与强调色)
+$uni-color-success: #07c160; // 微信绿 (成功色)
+$uni-color-warning: #ff9900; // 警告色 (暂定，原需求未明确指定警告色值，沿用常用或使用橙色系)
+$uni-color-error: #ff4d4f; // 错误色
+$uni-color-disabled: #999999; // 不可用色/中灰
+
+/* 文字颜色 */
+$uni-text-color: #333333; // 主要文字
+$uni-text-color-grey: #666666; // 次要文字
+$uni-text-color-light: #999999; // 辅助/占位文字
+$uni-text-color-inverse: #ffffff; // 反色文字
+
+/* 字体大小 */
+$uni-font-size-title: 36rpx;
+$uni-font-size-subtitle: 32rpx;
+$uni-font-size-base: 28rpx;
+$uni-font-size-sm: 24rpx;
+
+/* 间距 */
+$uni-spacing-base: 20rpx;
+$uni-spacing-sm: 10rpx;
+$uni-spacing-lg: 30rpx;
+
+/* 圆角 */
+$uni-border-radius-base: 12rpx;
+$uni-border-radius-lg: 16rpx;
+$uni-border-radius-circle: 50%;
+
+/* 阴影 */
+$uni-shadow-base: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
+$uni-shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.03);

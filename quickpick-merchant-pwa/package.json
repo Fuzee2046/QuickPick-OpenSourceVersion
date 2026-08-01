@@ -1,0 +1,42 @@
+{
+  "name": "quickpick-merchant-pwa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.13.2",
+    "echarts": "^6.1.0",
+    "element-plus": "^2.13.1",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
+    "vant": "^4.9.22",
+    "vite-plugin-pwa": "^1.2.0",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.3",
+    "@types/node": "^24.10.4",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/tsconfig": "^0.8.1",
+    "npm-run-all2": "^8.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-vue-devtools": "^8.0.5",
+    "vue-tsc": "^3.2.2"
+  }
+}
